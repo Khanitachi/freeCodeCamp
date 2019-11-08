@@ -21,6 +21,10 @@
   text-decoration: none;
 }
 
+.universal-nav .universal-nav-right a {
+  font-family: 'Roboto Mono', monospace;
+}
+
 .universal-nav-middle {
   display: flex;
   align-items: center;
@@ -129,7 +133,7 @@
   border: 1px solid var(--gray-00);
 }
 
-@media (max-width: 355px) {
+@media (max-width: 300px) {
   .nav-list li a {
     width: 50vw;
     text-align: center;
